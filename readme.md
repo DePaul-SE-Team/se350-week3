@@ -31,4 +31,5 @@ Complete all three, in order:
 3. [task3.md](task3.md) — a different smell: refactor `part3`'s `ShopKeeper` from asking
    `Inventory` about its state and mutating it externally, to telling `Inventory` what
    happened and letting it decide (*Tell, Don't Ask*).
+3. [task4.md](task4.md) — remove primitive obssession.
    
