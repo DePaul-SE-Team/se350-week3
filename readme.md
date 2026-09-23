@@ -11,7 +11,7 @@ state instead of telling the object what to do.
 
 ## Setup
 
-Requires Java 25 and Maven (or an IDE with both configured, e.g. IntelliJ via the included
+Requires Java 25 (If you do not have Java 25, you can try Java version in your system) and Maven (or an IDE with both configured, e.g. IntelliJ via the included
 `.idea` project files). Build with:
 
 ```
