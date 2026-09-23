@@ -8,7 +8,7 @@ public class QueryInvoicesDAO {
 
     private Database connection;  // Represents the database connection object
 
-    // Constructor that initializes the database connection using dependency injection
+    // Constructor that initializes the database connection
     public QueryInvoicesDAO() {
         this.connection = new Database();
     }
