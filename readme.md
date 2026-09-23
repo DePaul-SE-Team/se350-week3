@@ -18,7 +18,7 @@ Requires Java 25 (If you do not have Java 25, you can try Java version in your s
 mvn compile
 ```
 
-Each part has (or will have, per its task) an `Entry` class with a `main` method; run that
+Each part has may have an `Entry` class with a `main` method; run that
 from your IDE, or `mvn exec:java -Dexec.mainClass=...`, to try out your changes.
 
 ## Tasks
