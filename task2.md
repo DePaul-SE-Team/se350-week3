@@ -41,5 +41,4 @@ public class SAP_BasedInvoiceSender {
 
 1. Find every class in `part2` that builds its own dependency with `new` inside its constructor instead of receiving it as a parameter. List them.
 2. Refactor instantiation with injection
-3. Now that nothing wires itself up automatically, something has to build the full object graph by hand. Create an `Entry.java` in `part2` that constructs, in order: `Database` → `QueryInvoicesDAO` → `FilterInvoice` → an `SAP` implementation → `SAP_BasedInvoiceSender`, then calls `sendLowValuedInvoices()`. (This single method is the composition root — the one place `new` is still allowed.)
-4. Before this refactor, why was it impossible to unit test `FilterInvoice.lowValueInvoices()`? What is possible now that wasn't before?
+3. Before this refactor, why was it impossible to unit test `FilterInvoice.lowValueInvoices()`? What is possible now that wasn't before?
